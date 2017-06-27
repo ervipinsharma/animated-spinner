@@ -5,57 +5,56 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  border: 1px solid black; }
+  width: 30px;
+  height: 30px;
+  border-radius: 15px; }
   .spinner-container .child-spinner1 {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background: #f9f9f9;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
     position: absolute;
+    background: #f9f9f9;
     animation-name: spinner;
     animation-direction: normal;
-    animation-duration: 400ms;
-    animation-timing-function: linear;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite; }
   .spinner-container .child-spinner2 {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background: #f9f9f9;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
     position: absolute;
-    animation-name: spinner;
-    animation-direction: normal;
-    animation-duration: 800ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; }
-  .spinner-container .child-spinner3 {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
     background: #f9f9f9;
-    position: absolute;
     animation-name: spinner;
     animation-direction: normal;
     animation-duration: 1200ms;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite; }
-  .spinner-container .child-spinner4 {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background: #f9f9f9;
+  .spinner-container .child-spinner3 {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
     position: absolute;
+    background: #f9f9f9;
     animation-name: spinner;
     animation-direction: normal;
-    animation-duration: 1600ms;
-    animation-timing-function: linear;
+    animation-duration: 1800ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; }
+  .spinner-container .child-spinner4 {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    background: #f9f9f9;
+    animation-name: spinner;
+    animation-direction: normal;
+    animation-duration: 2400ms;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite; }
 @keyframes spinner {
   0% {
-    transform-origin: 100% 200%;
+    transform-origin: 200% 200%;
     transform: rotate(0deg); }
   100% {
     transform-origin: 200% 400%;
